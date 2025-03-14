@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="w-full h-20 flex flex-col items-center justify-center gap-y-4">
-      <h1 className="text-3xl text-black font-bold">Dashboard</h1>
+    <div className="w-full h-60 flex flex-col items-center justify-center gap-y-4">
+      <h1 className="text-3xl text-white font-bold">Dashboard</h1>
       <div>
         <a
           href="/dashboard/file-browser"
